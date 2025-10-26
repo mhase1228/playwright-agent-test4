@@ -1,0 +1,6 @@
+Run tests:
+- tests/navigation.spec.ts
+- tests/login.spec.ts
+- tests/reservation.spec.ts
+
+Command: npx playwright test tests/navigation.spec.ts tests/login.spec.ts tests/reservation.spec.ts --reporter=list
